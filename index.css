@@ -397,7 +397,7 @@ header ul li {
     line-height: 30px;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 968px) {
     header {
         position: unset;
     }
@@ -414,6 +414,9 @@ header ul li {
         display: unset;
     }
     
+    .pic img {
+        width: 100%;
+    }
     .menu li {
         font-size: 1.1em;
         line-height: 5em;
