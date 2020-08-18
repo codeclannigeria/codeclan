@@ -20,6 +20,16 @@ a:hover {
     border-radius: 4px;
 }
 
+.logo img {
+    width: 108px;
+    height: 80.6px;
+}
+.logo div{
+    padding: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+
 * {
     margin: 0;
     padding: 0;

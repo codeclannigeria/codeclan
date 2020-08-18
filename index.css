@@ -22,8 +22,8 @@ a:hover {
 }
 
 .logo {
-    width: 45.5px;
-    height: 35px;
+    width: 75.8px;
+    height: 58.33px;
 }
 
 .back-m {
@@ -67,11 +67,11 @@ header ul li {
 }
 
 .button {
-    background: white;
+    background: #F2A359;
     width: 130px;
     padding: 10px;
     outline: none;
-    color: #004495;
+    color: #fff;
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
@@ -85,9 +85,9 @@ header ul li {
 
 .title{
     font-weight: bolder;
-    font-size: 64px;
+    font-size: 40px;
     padding: 0 0 .8em 0;
-    line-height: 80px;
+    line-height: 60px;
 }
 
 .pic-hold {
@@ -308,6 +308,10 @@ header ul li {
     display: inline-block;
     text-align: left;
     width: 80%;
+}
+
+.head {
+    color: #A4031F;
 }
 
 .teams .head {
