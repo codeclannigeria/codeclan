@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("assets/fonts/Gilroy-Light.otf");
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d0d0d0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+.body-cover {
+    height: 100vh;
+    background: #1f59bb;
+    display: flex;
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right {
+    background: white;
+    height: 100%;
+    width: 80%;
+    overflow-y: auto;
+}
+
+.logo {
+    text-align: center;
+    padding: 2rem;
+}
+
+.main-menu ul {
+    /* padding-left: .5em; */
+    list-style: none;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.main-menu li {
+    padding-left: 1.5em;
+    line-height: 2em;
+}
+
+.sub-menu li {
+    padding-left: 3em
+}
+
+.main-menu div {
+    padding: .2em;
+}
+
+.main-menu div:hover {
+    background-color: #004699;
+}
+
+.icon-left {
+    display: inline-block;
+    margin-right: 1em;
+    vertical-align: sub;
+}
+
+.logout {
+    padding: 2em;
+}
+
+button {
+    border: none;
+    background-color: #004699;
+    color: white;
+    line-height:3em;
+    font-size: 1em;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .body-cover {
+        display: block;
+        height: unset;
+    }
+    .left,
+    .right {
+        width: auto;
+    }
+}
+
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+    .left {
+        width: 30%;
+    }
+    .right{
+        width: 70%;
+    }
+}
