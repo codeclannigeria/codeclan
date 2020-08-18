@@ -48,7 +48,7 @@ a:hover {
     /* padding-left: .5em; */
     list-style: none;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 2em;
     cursor: pointer;
 }
@@ -73,7 +73,9 @@ a:hover {
 .icon-left {
     display: inline-block;
     margin-right: 1em;
-    vertical-align: sub;
+}
+.icon-left.this-icon-left {
+    margin-top: .2em
 }
 
 .logout {
@@ -89,6 +91,15 @@ button {
     border-radius: 4px;
     width: 100%;
     cursor: pointer;
+}
+button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.side {
+    display:inline-flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 768px) {
