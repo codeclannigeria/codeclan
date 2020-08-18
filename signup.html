@@ -4,65 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up | CodeClan</title>
+    <title>Login | CodeClan</title>
     <link rel="stylesheet" href="login.css" />
+    <Link rel="stylesheet" href="prefix.css" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="main">
-        <div class="center">
+        <div class="left">
             <div class="logo">
-                <img src="./codeclan.png" alt="">
             </div>
-
+            <div class="titles">
+                Create your account
+            </div>
             <form>
                 <div class="block">
-                    <div class="label-holder">
-                        <label for="email">
-                            Email
-                        </label>
-                    </div>
                     <input id="email" type="email" />
+                    <span>
+                        <i class="fa fa-at" aria-hidden="true"></i>
+                    </span>
                 </div>
-
                 <div class="block">
-                    <div class="label-holder">
-                        <label for="password">
-                            Password
-                        </label>
-                    </div>
                     <input id="password" type="password" />
+                    <span>
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </span>
                 </div>
 
-                <div class="block">
-                    <div class="label-holder">
-                        <label for="confirmpassword">
-                            Confirm Password
-                        </label>
-                    </div>
-                    <input id="confirmpassword" type="password" />
-                </div>
 
-                <div class="block">
-                    <div class="label-holder">
-                        <label for="fullname">
-                            Full Name
-                        </label>
-                    </div>
-                    <input id="fullname" type="text" />
-                </div>
-
-                <br>
-                <input type="submit" value="Sign Up" />
-
-                <div class="block centralize" style="line-height: 2em;">
-                    <p>Do you have an account? <a href="login.html">Log in</a></p>
+                <input type="submit" value="Sign up" />
+                <button>
+                    <span><i class="fa fa-google" aria-hidden="true"></i></span> Sign up with Google
+                </button>
+                <div class="centralize" style="line-height: 2em;">
+                    <p>Already have an account? <a href="login.html">Log In</a></p>
                 </div>
             </form>
         </div>
-        <div class="footer">
-            &copy; 2020 CodeClan Team
+        <div class="right">
+            <img src="./assets/images/login.jpg" style="height: 50%;" />
+            <p class="small">
+                CODECLAN NIGERIA
+            </p>
+            <p class="normal">
+                Join us and take your programming career to the next level
+            </p>
         </div>
     </div>
 </body>
+
 </html>
