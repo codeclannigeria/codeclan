@@ -115,16 +115,15 @@ header ul li {
 }
 
 .get-started {
-    background: white;
-    width: 130px;
-    height: 56px;
+    color: white;
+    background: #F2A359;
     border-radius: 4px;
-    color: #004495;
     font-weight: 600;
     outline: none;
     border: none;
-    font-size: 18px;
-    margin-top: 1em
+    font-size: 23px;
+    margin-top: 1em;
+    padding: 1.5rem 3rem;
 }
 
 .section-2 {
